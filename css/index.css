@@ -1,0 +1,277 @@
+.prop-img {
+  border: 1px solid black;
+  width: 300px;
+  height: 150;
+  margin-left: 7px;
+  border-radius: 25px;
+}
+
+#main-img {
+  border: 1px solid black;
+  width: 500px;
+  height: 300;
+}
+
+#organiser-img {
+  width: 100px;
+  height: 80px;
+  margin-left: 150px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+}
+
+nav ul li {
+  color: #081010;
+  padding-left: 2vh;
+  margin-left: 2vh;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav .links-nav {
+  margin-left: 33%;
+  margin-top: 20px;
+}
+
+nav .logo {
+  padding: 0%;
+  margin-left: 1px;
+}
+
+nav .logo #logo-top {
+  height: 100px;
+  width: 200px;
+}
+
+.search {
+  margin-top: 2vh;
+  margin-left: 30%;
+  background-color: #E94E1B;
+  width: 40%;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.search input {
+  width: 60%;
+  height: 30px;
+  margin-left: 90px;
+  margin-top: 5px;
+  text-align: center;
+  border: none;
+  background-color: #E94E1B;
+  color: white;
+}
+
+.search #search-btn {
+  height: 35px;
+  width: 70px;
+  margin-top: 5px;
+  background-color: #faf7f3;
+  color: #E94E1B;
+  border: none;
+}
+
+.port {
+  margin-top: 3%;
+  margin-left: 6%;
+}
+
+.prod-details-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.prod-details-cont .img-event {
+  margin-top: 20px;
+  margin-left: 5%;
+  padding: 0px;
+}
+
+.prod-details-cont .details {
+  margin-left: 6%;
+  margin-right: 2%;
+  margin-top: 0%;
+}
+
+.organiser-details {
+  margin-top: 4%;
+  margin-left: 6%;
+  width: 30%;
+  height: 10%;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.organiser-details p {
+  text-align: center;
+}
+
+.organiser-details h3 {
+  text-align: center;
+}
+
+.ticket-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+  margin-top: 40px;
+  height: 40%;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.ticket-box h2 {
+  margin-left: 15px;
+}
+
+.ticket-box #input-numtik {
+  margin-left: 20px;
+  margin-top: 22px;
+}
+
+.ticket-box #input-num-tik {
+  border-radius: 7px;
+  height: 22px;
+  text-align: center;
+}
+
+.ticket-box .button-buy {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.ticket-box .view-btn {
+  margin-left: 30%;
+  padding: 0% 0px;
+  margin-top: 10px;
+}
+
+.ticket-box button {
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #E94E1B;
+  color: white;
+}
+
+.proposal {
+  margin-left: 6%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  margin-left: 4px;
+}
+
+.proposal-tittle {
+  margin-top: 10%;
+  margin-left: 6%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.scroll {
+  margin-left: 80%;
+  margin-top: 25px;
+}
+
+.scroll2 {
+  margin-top: 25px;
+  margin-left: 78%;
+}
+
+.footer {
+  margin-top: 30%;
+  background-color: #E94E1B;
+  height: 100px;
+  width: 1400px;
+}
+
+.footer p {
+  margin-left: 6%;
+}
+
+.ev-des {
+  width: 300px;
+  text-align: center;
+}
+
+.popup .overlay {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+  display: none;
+}
+
+.popup .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) scale(0);
+          transform: translate(-50%, -50%) scale(0);
+  background: #fff;
+  width: 450px;
+  height: 220px;
+  z-index: 2;
+  text-align: center;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.popup .close-btn {
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 30px;
+  height: 30px;
+  background: #222;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 3opx;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.popup.active .overlay {
+  display: block;
+}
+
+.popup.active .content {
+  -webkit-transition: all 100ms ease-in-out;
+  transition: all 100ms ease-in-out;
+  -webkit-transform: translate(-50%, -50%) scale(1);
+          transform: translate(-50%, -50%) scale(1);
+}
+/*# sourceMappingURL=index.css.map */

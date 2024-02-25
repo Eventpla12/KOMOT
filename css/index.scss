@@ -1,0 +1,247 @@
+.prop-img{
+    border: 1px solid black;
+    width: 300px;
+    height: 150;
+    margin-left: 7px;
+    border-radius: 25px;
+}
+#main-img{
+    border: 1px solid black;
+    width: 500px;
+    height: 300;
+}
+#organiser-img{
+    width: 100px;
+    height: 80px;
+    margin-left: 150px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+nav{
+    display:flex;
+    ul{
+    display:flex;
+    list-style: none;
+    text-decoration: none;
+    
+   li{
+    color: rgb(8, 16, 16);
+    padding-left: 2vh;
+    margin-left: 2vh;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    
+   } 
+}
+.links-nav{
+    margin-left: 33%;
+    margin-top: 20px;
+}
+.logo{
+    padding:0%;
+    margin-left: 1px;
+
+
+    #logo-top{
+        height: 100px;
+        width: 200px;
+    }
+}
+
+}
+.search{
+    margin-top: 2vh;
+    margin-left: 30%;
+    background-color: #E94E1B;
+    width: 40%;
+    height: 50px;
+    border-radius: 10px;
+    input{
+        width: 60%;
+        height: 30px;
+        margin-left: 90px;
+        margin-top: 5px;
+        text-align: center;
+        border: none;
+        background-color: #E94E1B;
+        color: white;
+    }
+    #search-btn{
+        height: 35px;
+        width: 70px;
+       margin-top: 5px;
+        background-color: rgb(250, 247, 243);
+        color: #E94E1B;
+        border:none;
+    }
+}
+.port{
+    margin-top: 3%;
+    margin-left: 6%;
+}
+.prod-details-cont{
+    display: flex;
+    .img-event{
+        margin-top: 20px;
+        margin-left: 5%;
+        padding: 0px; 
+    }
+    .details{
+        margin-left: 6%;
+        margin-right: 2%;
+        margin-top: 0%;
+    }
+    
+
+}
+.organiser-details{
+    margin-top: 4%;
+    margin-left: 6%;
+    width: 30%;
+    height: 10%;
+    border: 1px solid black;
+    border-radius: 10px;
+    p{
+        text-align: center;
+    }
+    h3{
+        text-align: center;
+    }
+    
+}
+.ticket-box{
+    display: flex;
+    width: 70%;
+    margin-top: 40px;
+    height: 40%;
+    border: 1px solid black;
+    border-radius: 10px;
+    h2{
+        margin-left: 15px;
+    }
+    #input-numtik{
+        margin-left: 20px;
+        margin-top:22px;
+       
+    }
+    #input-num-tik{
+        border-radius: 7px;
+        height: 22px;
+        text-align: center;    
+    }
+    .button-buy{
+        margin-top: 10px;
+        margin-left: 10px;
+       
+       
+    }
+    .view-btn{
+        margin-left: 30%;
+        padding: 0%0px;
+        margin-top: 10px;
+    }
+    button{
+        width: 80px;
+        height: 30px;
+        border-radius: 5px;
+        background-color: #E94E1B;
+        color: white;
+        
+    }
+}
+.proposal{
+   
+   margin-left: 6%;
+   display: flex;
+  
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin-left: 4px;
+}
+.proposal-tittle{
+    margin-top: 10%;
+    margin-left:6%;
+    display: flex;
+    
+}
+.scroll{
+   
+    margin-left: 80%;
+    margin-top: 25px;
+    
+}
+.scroll2{
+    margin-top: 25px;
+    margin-left: 78%;
+}
+
+
+
+.footer{
+    margin-top: 30%;
+    background-color: #E94E1B;
+    height: 100px;
+    width: 1400px;
+    p{
+        margin-left: 6%;
+    }
+}
+.ev-des{
+    width: 300px;
+    text-align: center;  
+}
+.popup{
+    .overlay{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(0,0,0,0.7);
+        z-index: 1;
+        display: none;
+    }
+    .content{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform:translate(-50%, -50%) scale(0) ;
+        background: #fff;
+        width: 450px;
+        height: 220px;
+        z-index: 2;
+        text-align: center;
+        padding: 20px;
+        box-sizing:border-box ;
+    }
+    .close-btn{
+        cursor: pointer;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        width: 30px;
+        height: 30px;
+        background: #222;
+        color: #fff;
+        font-size: 25px;
+        font-weight:600;
+        line-height: 3opx;
+        text-align: center;
+        border-radius: 50%;
+    }
+    
+}
+.popup.active{
+   .overlay{
+        display: block;
+    }
+    .content{
+        transition: all 100ms ease-in-out;
+        transform:translate(-50%, -50%) scale(1);
+    }
+}

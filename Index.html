@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Komot Ticket</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="JS/index.js"></script>
+    <link rel="icon" type="image/x-icon" href="assets/komot logo.jpg">
+</head>
+<body>
+  <!--Nav bar-->
+    <nav class="navbar">
+        <div class="logo">
+          <a  href="#"><img  id="logo-top" src="assets/komot logo.jpg" alt="logo"></a>
+        </div>
+
+        <div class="links-nav">
+          <ul class="nav=ul">
+            <li class="right"><a href="#">Trouvez un evenement</a></li>
+            <li ><a href="#">cree votre evenement</a></li>
+            <li ><a href="#">A propos</a></li>
+            <li ><a href="#">connection</a></li>
+            <li ><a href="#">Inscription</a></li>     
+            <!--button >toggle</button-->
+          </ul>
+        </div>
+    </nav>
+   <!--search bar-->
+    <div class="search">
+        <input name="" id="search-input" placeholder="search">
+        <button id="search-btn"> search</button>
+     </div>
+
+     <!--product details-->
+     <div class="port">
+        <h1 class="item-header">Portfolio Item </h1>
+      </div>
+      <div class="prod-details-cont">
+        <div class="img-event">
+            <img class="img-responsive"  id="main-img" src="assets/komot logo.jpg">
+          </div>
+          <div class="details">
+            <h3>A propos d'evenement</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum nisi delectus accusamus asperiores, numquam minima ea reprehenderit cupiditate sed repellat sit doloribus laudantium harum nam neque iste sunt, quaerat iusto.</p>
+            <h3>Project Details</h3>
+            <ul>
+              <li>Lorem Ipsum</li>
+              <li>Dolor Sit Amet</li>
+              <li>Consectetur</li>
+              <li>Adipiscing Elit</li>
+            </ul>  
+            <div class="ticket-box">
+              <div id="tittle-numtik">
+                <h2>Number of tickets</h2>
+              </div>
+              <div id="input-numtik">
+                <input type="text" id="input-num-tik">
+                <div class="button-buy">
+                  <button id="buy" onclick="togglePopup()">Buy</button>
+                  <button id="reserve">Reserve</button>
+                 </div>
+                 <div class="view-btn">
+                  <button>View</button>
+                 </div>
+              </div>
+             
+             </div> 
+             
+         </div>
+         
+    <!--organiser details-->
+      </div>
+      <div class="organiser-details">
+        <h3>About organiser</h3>
+        <img src="assets/komot logo.jpg" alt="organiser photo" id="organiser-img">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet animi inventore quod dignissimos perferendis dolor, in autem molestias qui adipisci.</p>
+      </div>
+     <!--proposal-->
+     <div class="proposal-tittle">
+      <h3 class="proposal-headr">Autre evenement</h3>
+      <div class="scroll">
+        <button><</button>
+        <button>></button>
+      </div>
+      <!--image proposal-->
+    </div>
+    <div class="proposal">
+      <div >
+        <a href="#" class="prop-lnk" id="lnk1">
+          <img class="prop-img" src="assets/komot logo.jpg"> 
+          <div class="ev-des">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur cupiditate quod ab blanditiis velit. Nam ipsam veniam blanditiis voluptatum obcaecati!</p>
+          </div>
+          
+        </a>
+      </div>
+            
+       <div>
+           <a href="#" class="prop-lnk" id="lnk2"
+           ><img class="prop-img" src="assets/komot logo.jpg">
+           <div class="ev-des">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur cupiditate quod ab blanditiis velit. Nam ipsam veniam blanditiis voluptatum obcaecati!</p>
+          </div>
+         
+        </div>   
+        
+           <div>
+             <a href="#"  class="prop-lnk" id="lnk3">
+              <img class="prop-img"  src="assets/komot logo.jpg">
+              <div class="ev-des">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur cupiditate quod ab blanditiis velit. Nam ipsam veniam blanditiis voluptatum obcaecati!</p>
+              </div>
+            </a>
+             
+            </div>
+           <div>
+            <a href="#" class="prop-lnk" id="lnk4"
+            ><img class="prop-img" src="assets/komot logo.jpg">
+            <div class="ev-des">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur cupiditate quod ab blanditiis velit. Nam ipsam veniam blanditiis voluptatum obcaecati!</p>
+            </div>
+          </div>
+          </a>
+           
+    </div>
+
+    
+     <!-- town proposal-->
+     <div class="proposal-tittle">
+      <h3 class="proposal-head">Evenement par ville</h3>
+      <div class="scroll2" >
+        <button><</button>
+        <button>></button>
+      </div>
+     </div>
+      <!-- town image proposal-->
+      <div class="proposal">
+        <div >
+          <a href="#" class="prop-lnk" id="twn-lnk1">
+            <img class="prop-img" src="assets/komot logo.jpg">
+            <div class="ev-des">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur cupiditate quod ab blanditiis velit. Nam ipsam veniam blanditiis voluptatum obcaecati!</p>
+            </div> 
+          </a>
+        </div>
+              
+         <div>
+             <a href="#" class="prop-lnk" id="twn-lnk2"
+             ><img class="prop-img" src="assets/komot logo.jpg">
+             <div class="ev-des">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur cupiditate quod ab blanditiis velit. Nam ipsam veniam blanditiis voluptatum obcaecati!</p>
+            </div>
+            </a>
+          </div>   
+          
+             <div>
+               <a href="#"  class="prop-lnk" id="twn-lnk3">
+                <img class="prop-img"  src="assets/komot logo.jpg">
+                <div class="ev-des">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur cupiditate quod ab blanditiis velit. Nam ipsam veniam blanditiis voluptatum obcaecati!</p>
+                </div>
+              </a>
+              </div>
+             <div>
+              <a href="#" class="prop-lnk" id="twn-lnk4"
+              ><img class="prop-img" src="assets/komot logo.jpg">
+              <div class="ev-des">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur cupiditate quod ab blanditiis velit. Nam ipsam veniam blanditiis voluptatum obcaecati!</p>
+              </div>
+            </a>
+             </div>
+      </div>
+    
+     <!-- popular places-->
+     <div class="proposal-tittle">
+      <h3 class="proposal-head">Lieux Populaires</h3>
+      <div class="scroll" >
+        <button><</button>
+        <button>></button>
+      </div>
+     </div>
+      <!-- popular places image proposal-->
+      <div class="proposal">
+        <div >
+          <a href="#" class="prop-lnk" id="pop-lnk1">
+            <img class="prop-img" src="assets/komot logo.jpg">
+            <div class="ev-des">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur cupiditate quod ab blanditiis velit. Nam ipsam veniam blanditiis voluptatum obcaecati!</p>
+            </div> 
+          </a>
+        </div>
+              
+         <div>
+             <a href="#" class="prop-lnk" id="pop-lnk2"
+             ><img class="prop-img" src="assets/komot logo.jpg">
+             <div class="ev-des">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur cupiditate quod ab blanditiis velit. Nam ipsam veniam blanditiis voluptatum obcaecati!</p>
+            </div>
+            </a>
+          </div>   
+          
+             <div>
+               <a href="#"  class="prop-lnk" id="pop-lnk3">
+                <img class="prop-img"  src="assets/komot logo.jpg">
+                <div class="ev-des">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur cupiditate quod ab blanditiis velit. Nam ipsam veniam blanditiis voluptatum obcaecati!</p>
+                </div>
+              </a>
+              </div>
+             <div>
+              <a href="#" class="prop-lnk" id="pop-lnk4"
+              ><img class="prop-img" src="assets/komot logo.jpg">
+              <div class="ev-des">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur cupiditate quod ab blanditiis velit. Nam ipsam veniam blanditiis voluptatum obcaecati!</p>
+              </div>
+            </a>
+             </div>
+      </div>
+
+   <!--popup box-->
+   <div class="popup" id="popup-1">
+      <div class="overlay"></div>
+      <div class="content">
+        <div class="close-btn" onclick="togglePopup()">&times;</div>
+        <h1>popup</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, voluptas!</p>
+      </div>
+   </div>
+
+  
+    <!--footerl-->
+     <div class="footer">
+      <hr>
+      <p>Copyright &copy; Company 2013</p>
+    </div>
+ 
+  
+</body>
+
+
+   
+
+</html>
