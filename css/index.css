@@ -239,8 +239,8 @@ a {
   -webkit-transform: translate(-50%, -50%) scale(0);
           transform: translate(-50%, -50%) scale(0);
   background: #fff;
-  width: 450px;
-  height: 220px;
+  width: 1000px;
+  height: 800px;
   z-index: 2;
   text-align: center;
   padding: 20px;
@@ -273,5 +273,51 @@ a {
   transition: all 100ms ease-in-out;
   -webkit-transform: translate(-50%, -50%) scale(1);
           transform: translate(-50%, -50%) scale(1);
+}
+
+.container-pay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container-pay .form-1 {
+  width: 600px;
+  height: 600px;
+}
+
+.container-pay .pic-pay {
+  width: 400px;
+  height: 700px;
+  background-color: aqua;
+}
+
+.container-pay .form-1 input {
+  width: 200px;
+  height: 30px;
+  margin-top: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container-pay .form-1 button {
+  width: 210px;
+  height: 35px;
+  margin-left: 10px;
+  border-radius: 5px;
+  background-color: #E94E1B;
+}
+
+.container-pay #pn-bx, .container-pay #cnf-te-bx {
+  margin-left: 10px;
+}
+
+.container-pay #line {
+  margin-top: 20px;
+}
+
+.container-pay img {
+  height: 100px;
+  margin-left: 20px;
 }
 /*# sourceMappingURL=index.css.map */
